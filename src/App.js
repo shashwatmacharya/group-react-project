@@ -7,10 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <Button  text="Sign In" type={SubmitEvent}/>
-        <Button text="Register" type={SubmitEvent} />
-        <Button text="Create" type={SubmitEvent} />
-        <Button text="Request demo" type={SubmitEvent}/>
+        <Button  text="Sign In" type="button"/>
+        <Button text="Register" type="button" />
+        <Button text="Create" type="button" />
+        <Button text="Request demo" type="button"/>
 
       </header>
     </div>
